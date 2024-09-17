@@ -95,22 +95,21 @@ Beim Klicken wird die Seite gewechselt.
 ### Code Spezifisch
 ```java
 public interface RewardItem {
-/**
-* @return Die Anzahl der Belohnungen.
-*/
-int getAmount();
+  /**
+  * @return Die Anzahl der Belohnungen.
+  */
+  int getAmount();
 
-/**
-* @param player Bukkit Spieler, dem die Belohnung gegeben werden soll
-* @return true wenn die Belohnung gegeben wurde. False wenn es nicht ging.
-*/
+  /**
+  * @param player Bukkit Spieler, dem die Belohnung gegeben werden soll
+  * @return true wenn die Belohnung gegeben wurde. False wenn es nicht ging.
+  */
+  boolean give(Player player);
 
-boolean give(Player player);
-/**
-* @return Kyori adventure component was in der lore steht
-*/
-
-Component getDisplayName();
+  /**
+  * @return Kyori adventure component was in der lore steht
+  */
+  Component getDisplayName();
 }
 ```
 
