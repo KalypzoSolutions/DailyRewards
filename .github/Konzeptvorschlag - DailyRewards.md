@@ -87,7 +87,7 @@ Inhaltsvorschau:
 
 Das Buch:
 
-![./book_info.png](./preview.png)
+![./book_info.png](./book_info.png)
 
 Gunpowder soll durch einen Pfeil Kopf (-> | <-)  ersetzt werden. 
 Beim Klicken wird die Seite gewechselt.
