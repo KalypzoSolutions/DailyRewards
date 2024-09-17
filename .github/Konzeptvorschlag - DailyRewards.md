@@ -41,15 +41,15 @@ Stages:
 
 ### Datenbank
 MongoDB
-```json
-Spieler {
+```yaml
+{
 	last_claim: timestamp,
 	current_start: timestamp,
 	streak: int,
 	laengsteStreak: int,
 	StreakHistory: {
 		start: timestamp,
-		ende: timestamp (start * streak + timeout)
+		ende: timestamp #(start * streak + timeout)
 	}[]
 }
 ```
