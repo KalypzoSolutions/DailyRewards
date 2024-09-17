@@ -70,17 +70,17 @@ Zeitwert nachdem die Streak unterbrochen wird. (def: 32h)
 ### GUI Design
 Paginated-GUI
 Geklaut von primeblocks.net
-![[daily_claim_gui.png]]
+![./daily_claim_gui.png]
 Im Wesentlichen:
 Unclaimed ->  Man sieht nur den Inhalt der Belohnungen 2 Tage im voraus. Der Rest ist nicht Ersichtbar. 
 Geclaimt -> Verzaubert und angefügt an die Lore "Du hast die Belohnung eingelöst".
 
 Inhaltsvorschau: 
-![[Pasted image 20240917173537.png]]
+![./preview.png]
 ⚠️ Unten soll mit einer Zeile Abstand, in grün,  "Du hast die Belohnung eingelöst" stehen
 
 Das Buch:
-![[book_info.png]]
+![./book_info.png]
 
 Gunpowder soll durch einen Pfeil Kopf (-> | <-)  ersetzt werden. 
 Beim Klicken wird die Seite gewechselt.
